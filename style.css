@@ -1,0 +1,154 @@
+#nue_events ul, #nue_events li, #nue_events *{
+	margin: 0px !important;
+  	padding: 0px !important;
+	list-style-type: none !important;
+	background: none !important;
+}
+
+#nue_events .clear{
+	clear: both;
+}
+
+#nue_events .nue_hovertrans{
+	display: none;
+	position: absolute;
+	top: 0px;
+}
+
+#nue_events.slideshow{
+	position: relative;
+	overflow: hidden;
+	padding: 0px 22px 2px 18px !important;
+	margin: 0px auto !important;
+}
+
+#nue_events .next, #nue_events .previous{
+	display: none;
+}
+
+#nue_events.slideshow .next, #nue_events.slideshow .previous{
+	display: block;
+	position: absolute;
+	top: 58px;
+	width: 15px;
+	height: 45px;
+	line-height: 45px;
+	text-indent: -9999px;
+	z-index: 9;
+}
+
+#nue_events.slideshow .previous{
+	left: 0px;
+	background: url('images/previous.png') 0px 0px no-repeat !important;
+}
+
+#nue_events.slideshow .previous .nue_hovertrans{
+	background: url('images/previoushov.png') 0px 0px no-repeat !important;
+}
+
+#nue_events.slideshow .next{
+	right: 0px;
+	background: url('images/next.png') 0px 0px no-repeat !important;
+}
+
+#nue_events.slideshow .next .nue_hovertrans{
+	background: url('images/nexthov.png') 0px 0px no-repeat !important;
+}
+
+#nue_events.slideshow .inner{
+	height: 162px;
+	margin: 0px auto !important;
+	padding: 1px 2px 2px 2px !important;
+	overflow: hidden;
+}
+
+#nue_events.slideshow .event{
+	float: left;
+	margin-right: 5px !important;
+	width: 138px;
+	height: 162px;
+	background-color: #fff !important;
+	box-shadow: 0px 1px 2px #bbb;
+	text-align: center;
+	line-height: 18px !important;
+	overflow: visible !important;
+}
+
+#nue_events.slideshow .event .inside{
+	position: relative;
+	z-index: 6;
+	border: 1px solid #999;
+	height: 152px;
+	width: 128px;
+	padding: 4px !important;
+	overflow: hidden;
+}
+
+#nue_events.slideshow .event .nue_hovertrans{
+	box-shadow: 0px 1px 2px #333;
+	z-index: 5;
+	left:0;
+}
+
+#nue_events.slideshow .img{
+	width: 128px;
+	height: 80px;
+	overflow: hidden;
+}
+
+#nue_events.slideshow .img img{
+	max-width: 128px;
+	width: 128px;
+	margin-top: -24px !important;
+}
+
+#nue_events.slideshow .title{
+	font-size: 14px !important;
+	font-weight: bold;
+	margin: 2px 0 !important;
+}
+
+#nue_events.slideshow .detail{
+	font-size: 12px !important;
+}
+
+#nue_events.slideshow a{
+	color: #333;
+	text-decoration: none;
+}
+
+#nue_events .eventful-badge,
+#nue_events .eventful-badge * {
+  margin: 0;
+  padding: 0 !important;
+  border: 0 !important;
+  text-align: right !important;
+  color: #ddd !important;
+  font-family: Arial !important;
+  text-decoration: none !important;
+}
+                  
+.eventful-small {     
+  position: relative !important;
+  font-size: 8px !important;
+  line-height: 8px !important;
+}
+
+#nue_events.slideshow .eventful-badge{
+	float: right;
+	margin: 3px 0px 0px 0px !important;
+}
+
+#nue_events.slideshow .eventful-badge img{
+	width: 50px;
+}
+
+#nue_events.slideshow .lla{
+	margin-top: 0px !important;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#nue_events.slideshow .lla p{
+	margin-right: -16px !important;
+}
